@@ -1,0 +1,9 @@
+# Zephyr build artifacts
+build/
+.cache/
+
+# Kconfig and IDE files
+.config.sysbuild
+.vscode/
+*.swp
+*.bak
