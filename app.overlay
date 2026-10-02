@@ -41,5 +41,10 @@
     temp_press_sensor: bmp280@77 {
         compatible = "bosch,bme280";
         reg  = <0x77>; 
+    };
+
+    bmi160: bmi160@68 {
+        compatible = "bosch,bmi160";
+        reg = <0x68>;
     };   
  };

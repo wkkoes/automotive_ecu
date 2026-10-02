@@ -19,7 +19,7 @@ int main(void)
         
         int distance = hcsr04_get_distance();
         dashboard_check_alarms(distance);
-
+        
         sensors_log();
         
         k_msleep(1000);
